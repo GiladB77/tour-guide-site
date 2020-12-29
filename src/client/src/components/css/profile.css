@@ -1,0 +1,432 @@
+.containers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7rem;
+}
+.email-input {
+  border-width: 0px;
+  width: 25vw;
+  padding-left: 3%;
+  height: 41px;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(188, 188, 188, 1);
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.name {
+  position: relative;
+  top: 13%;
+  left: 1%;
+  font-size: xx-large;
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+  width: 16vw;
+}
+
+.bars {
+  border-style: solid;
+
+  color: rgb(158, 158, 158);
+}
+
+.cityCountry {
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+  width: 11vw;
+  margin-top: 1%;
+}
+
+.CityCounStar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  top: 15vh;
+}
+
+#n {
+  unicode-bidi: bidi-override;
+  /* width: 150px; */
+  width: 10vw;
+  margin-top: 0.4vh;
+}
+
+.views {
+  width: 30vw;
+  display: inline;
+  margin-top: 2.3vh;
+  margin-right: auto;
+}
+
+.spacer {
+  width: 30vw;
+}
+
+ul {
+  list-style-type: none;
+}
+.a {
+  height: 397px;
+  padding-bottom: 1rem;
+
+  width: 30vw;
+
+  background: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: rgba(188, 188, 188, 1);
+
+  box-shadow: none;
+}
+.form-Top {
+  height: 12vh;
+  display: flex;
+  -ms-flex-wrap: wrap;
+}
+
+#form {
+  width: 85%;
+  margin-top: 2rem;
+  margin-left: 8%;
+}
+.mb-3,
+.my-3 {
+  padding-right: 0%;
+  padding-left: 0%;
+  margin-bottom: 1rem !important;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="time"] {
+  border-radius: 5px;
+  width: 97%;
+}
+.b {
+  border-width: 0px;
+
+  width: 30vw;
+  border-radius: 4px;
+
+  box-shadow: none;
+}
+
+.PicImg {
+  width: 30vw;
+  height: 55vh;
+  border-radius: 9px;
+}
+.icons-svg {
+  color: #5f9ea0;
+  position: relative;
+  bottom: 2px;
+  font-size: 18px;
+}
+.c {
+  border-width: 0px;
+  /* position: absolute; */
+  justify-content: space-between;
+  width: 30vw;
+  height: 56vh;
+  background: inherit;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  /* border-width: 1px; */
+  border-style: solid;
+  border-radius: 4px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* order: 2; */
+}
+
+.img-style {
+  width: 49%;
+  height: 48%;
+  border-radius: 7px;
+}
+
+.date {
+  border-radius: 0px;
+  width: 200px;
+  height: 16px;
+  font-family: "ArialMT", "Arial";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#form {
+  width: 85%;
+  margin-top: 1rem;
+}
+
+.form-row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+
+  margin-right: -52px;
+}
+
+input[type="text"],
+[type="number"],
+[type="date"] {
+  width: 87%;
+  margin: 2px;
+  border-radius: 6px;
+  font-family: "Fira Sans", sans-serif;
+
+  background-color: white;
+  padding: 12px 20px;
+}
+#StartDate {
+  position: relative;
+
+  right: 4%;
+}
+input#EndDate {
+  margin-left: 2% !important;
+}
+.end-date {
+  margin-left: 2%;
+}
+label.email-input-lable {
+  margin-top: 3%;
+  margin-left: 0.5%;
+}
+
+#Tourists {
+  border-width: 0px;
+  width: 25vw;
+  height: 41px;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(188, 188, 188, 1);
+  border-radius: 5px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.contact {
+  width: 40%;
+}
+.cost {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 900;
+  height: 3vh;
+}
+
+.bookNow {
+  border-width: 0px;
+  width: 25vw;
+  height: 53px;
+  margin-top: 1rem;
+  background: #5f9ea0;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(188, 188, 188, 1);
+  border-radius: 5px;
+  /* margin-left: 1.9rem; */
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+.bookNow:hover {
+  background: rgba(99, 163, 132, 0.5);
+}
+
+.Tourists {
+  margin-top: 41%;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+
+  display: flex;
+
+  position: relative;
+
+  top: 3rem;
+  left: 22px;
+}
+
+.bar {
+  border-style: solid;
+  border-width: 0.5px;
+  color: rgb(158, 158, 158);
+  height: auto;
+}
+
+.bars {
+  height: auto;
+  border-style: solid;
+  border-width: 0.5px;
+  color: rgb(158, 158, 158);
+  margin-left: 2rem;
+}
+
+.mDA {
+  font-size: 1.5rem;
+  display: flex;
+}
+.details {
+  margin-top: 5%;
+}
+.Icon {
+  margin-left: 5%;
+  height: 50px;
+}
+
+.profile-Summary {
+  margin-left: 2rem;
+  width: 29%;
+}
+
+.hero-image {
+  padding-top: 70px;
+}
+
+.hero-info h2 {
+  margin-bottom: 30px;
+}
+
+.hero-info ul {
+  list-style: none;
+}
+
+.hero-info ul li {
+  font-size: 1.2rem;
+  color: #5d6161;
+  margin-bottom: 1rem;
+  width: 23rem;
+}
+
+.hero-info ul li span {
+  color: #40424a;
+  display: inline-block;
+}
+
+.Experience {
+  font-size: 1rem;
+  width: 31%;
+}
+
+.comm {
+  margin-left: 3%;
+  margin-top: 0%;
+  width: 30%;
+}
+
+.commentsText {
+  background: #c9c9c9;
+  color: #000;
+  text-align: left;
+  font-size: 15px;
+
+  width: 75%;
+  height: auto;
+  border-radius: 5px;
+  display: inline-block;
+
+  margin-bottom: 10px;
+}
+.box-shadow {
+  background: #f5f5f5;
+  font-size: 15px;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  text-align: left;
+  text-align: 10px;
+  border-radius: 14px;
+  width: 248px;
+  height: auto;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  box-shadow: #a3a3a3 0px 0px 5px -1px;
+}
+.message {
+  font-size: 32px;
+  font-size: 34px;
+  margin-top: 2rem;
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: -webkit-center;
+  font-family: "Fira Sans", sans-serif;
+}
+.close {
+  color: red;
+  position: absolute;
+  font-size: xx-large;
+}
+.stroke {
+}
+.stroke {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: #5f9ea0;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: rgba(163, 163, 163, 0) 0px 0px 0px;
+}
+.message {
+  font-size: 34px;
+  position: relative;
+  font-size: xx-large;
+  width: 56%;
+  text-align: -webkit-center;
+  font-family: "Fira Sans", sans-serif;
+  left: 27%;
+  bottom: 35%;
+}
+.mainmodal {
+  border-style: solid;
+  border-color: green;
+
+  height: 100%;
+  border-width: 3px;
+}
+.icon {
+  font-size: 693%;
+  position: relative;
+  top: 82px;
+  left: 7%;
+}
+.close {
+  margin-left: 1%;
+  margin-top: 1%;
+  color: rgb(247, 51, 51);
+
+  font-size: xx-large;
+}

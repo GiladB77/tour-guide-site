@@ -1,0 +1,23 @@
+.nimrod{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-top: 10%; */
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+Figure.Image{
+    margin-left: 20px;
+}
+
+.text {
+    margin-top: 7%;
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 40px;
+    font-size: 18px;
+    width: 60%;
+    margin-left: 22%;
+    margin-bottom: 3%;
+}
